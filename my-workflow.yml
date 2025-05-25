@@ -1,0 +1,11 @@
+name: IITM CI Test
+
+on:
+  workflow_dispatch:  # allows manual run from GitHub UI
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f3000891@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions!"
